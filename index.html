@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine Cellar - Home</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">The Wine Cellar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="RedWine.html">Red Wine</a>
+                        <a class="dropdown-item" href="WhiteWine.html">White Wine</a>
+                        <a class="dropdown-item" href="SparklingWine.html">Sparkling Wine</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide hero" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/gd1.jpg" class="d-block w-100" alt="Wine Image">
+            </div>
+        </div>
+    </div>
+    <!-- Featured Wines Section -->
+    <div class="container">
+        <h1 class="text-center">Featured Wines</h1>
+        <br>
+        <div class="row">
+            <!-- Red Wine Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r1.png" class="card-img-top card-img-custom" alt="Red Wine 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin 2008</h5>
+                        <p class="card-text text-center"><strong>฿32,000</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal1">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Modal for Red Wine Card 1 -->
+            <div class="modal fade" id="wineModal1" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel1">Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin 2008</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r1.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 1">
+                            <div class="modal-text">
+                                <p>Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin ไวน์จากแหล่งผลิตไวน์ชั้นยอด Napa Valley จากแคลิฟอร์เนีย เป็นไวน์ Napa ที่ทำออกมาในสไตล์ไวน์ Bordeaux</p>
+                                <p>nky/purple color in addition to an ethereal nose of cassis, chocolate, burning embers, espresso and forest floor. Sweet tannins, a multidimensional mouthfeel, full-bodied power and good structure as well as freshness make for a prodigious example of wine that will benefit from 4-5 years of cellaring, but will keep for 25-30 years.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> United States</li>
+                                    <li><strong>Sub Region:</strong> California</li>
+                                    <li><strong>Vintage:</strong> 2008</li>
+                                    <li><strong>Colour:</strong> Red Purple</li>
+                                    <li><strong>Varietal:</strong> 87% Cabernet Sauvignon and the rest Merlot, Cabernet Franc and Petit Verdot</li>
+                                    <li><strong>Wine Style:</strong> Red – Bold and Structured</li>
+                                    <li><strong>Alcohol %:</strong> 13.5-14%</li>
+                                    <li><strong>Food Suggestion:</strong> Beef and Venison</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿32,000</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Red Wine Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r2.png" class="card-img-top card-img-custom" alt="Red Wine 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Domaine Pierre Damoy Chambertin Grand Cru Clos de Beze 2018</h5>
+                        <p class="card-text text-center"><strong>฿35,500</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal2">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Red Wine Card 2 -->
+            <div class="modal fade" id="wineModal2" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel2">Domaine Pierre Damoy Chambertin Grand Cru Clos de Beze 2018</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r2.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 2">
+                            <div class="modal-text">
+                                <p>Fragrant, fluid and seductive for the silky texture, with cherry, floral, sandalwood and oak spice aromas and flavors. Well-structured yet deftly balanced, this feels effortless and graceful overall. Reveals licorice and mineral notes on the finish. Best from 2025 through 2046. 40 cases made.</p>
+                                <ul>
+                                    <li><strong>Decanting time:</strong> 1 Hour</li>
+                                    <li><strong>Longevity:</strong> Over 25 years</li>
+                                    <li><strong>Country:</strong> France </li>
+                                    <li><strong>Sub Region:</strong> Burgundy</li>
+                                    <li><strong>Vintage:</strong> 2018</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir</li>
+                                    <li><strong>Alcohol %:</strong>  13.5%</li>
+                                    <li><strong>Food Suggestion:</strong> Chicken and Turkey</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿35,500</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Red Wine Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r3.png" class="card-img-top card-img-custom" alt="Red Wine 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Hundred Acre ‘Ark’ Cabernet Sauvignon 2011</h5>
+                        <p class="card-text text-center"><strong>฿17,000</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal3">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Red Wine Card 3 -->
+            <div class="modal fade" id="wineModal3" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel3" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel3">Hundred Acre ‘Ark’ Cabernet Sauvignon 2011</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r3.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 3">
+                            <div class="modal-text">
+                                <p>Hundred Acre ไวน์จาก Napa Valley บริเวณเทือกเขา Howell Mountain ที่มีชื่อเสียงในการทำไวน์สไตล์ robust and complex red wines.</p>
+                                <p>Slightly better is the 2011 Cabernet Sauvignon Arc Vineyard from Howell Mountain. This wine offers even denser fruit, loads of graphite, mulberry, and blackberry fruit, an enticing minerality, a full-bodied mouthfeel</p>
+                                <ul>
+                                    <li><strong>Country:</strong> United States</li>
+                                    <li><strong>Sub Region:</strong> California/Howell Mountain</li>
+                                    <li><strong>Vintage:</strong> 2011</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Cabernet Sauvignon</li>
+                                    <li><strong>Wine Style:</strong>  Red – Bold and Structured</li>
+                                    <li><strong>Alcohol %:</strong>  16%</li>
+                                    <li><strong>Food Suggestion:</strong> Beef and Venison</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿17,000</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Red Wine Card 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r4.png" class="card-img-top card-img-custom" alt="Red Wine 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Prieure Roch Nuits St Georges Premier Cru Le Clos Des Corvees 2020</h5>
+                        <p class="card-text text-center"><strong>฿24,500</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal4">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal for Red Wine Card 4 -->
+            <div class="modal fade" id="wineModal4" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel4" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel4">Prieure Roch Nuits St Georges Premier Cru Le Clos Des Corvees 2020</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r4.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 4">
+                            <div class="modal-text">
+                                <p>In 1988 Henri-Frédéric Roch, co-director of Domaine de la Romanée-Conti and grandson of Henri Leroy, decided to create his own exclusive domaine from some of DRC’s choicest parcels in Vosne-Romanée. He handpicked prime parcels in Vosne-Romanée from Domaine de la Romanée-Conti, infusing his deep Burgundian understanding into each vine.</p>
+                                <p>These are some of the world’s most prestigious wines from one of Burgundy’s most hallowed growers, so it is an exceptionally special addition to the Honest Grapes collection, which stands at a calibre that we would feel extremely lucky to have in our very own wine cellar.</p>
+                                <p>The resulting wines have a special purity and complexity which is hard to encapsulate. Vibrant, fresh aromatics and very bright acidity are balanced by superbly ripe, sophisticated fruit and spice flavours. Like the wines of other great minimal-interventionist producers (Vincenzo Abruzzese at Valdicava, for example), they can be enjoyed young but are also capable of long-term cellaring.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> France</li>
+                                    <li><strong>Sub Region:</strong> Burgundy</li>
+                                    <li><strong>Vintage:</strong> 2020</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir</li>
+                                    <li><strong>Alcohol %:</strong>  13.5%</li>
+                                    <li><strong>Food Suggestion:</strong> Chicken and Turkey</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿24,500</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- White Wine Card 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/w5.png" class="card-img-top card-img-custom" alt="White Wine 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Ronan by clinet white 2015</h5>
+                        <p class="card-text text-center"><strong>฿1,100</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal5">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for White Wine Card 5 -->
+            <div class="modal fade" id="wineModal5" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel5" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel5">Ronan by clinet white 2015</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/w5.png" class="img-fluid mb-3 modal-img-custom" alt="White Wine 5">
+                            <div class="modal-text">
+                                <p>ไวน์ Bordaux ที่ว่ากันว่าเป็นหนึ่งในไวน์ยุคใหม่ที่ดีที่สุด ทำจากองุ่นพันธ์ Merlot 100 % สร้างสรรค์โดยทีมงานเดียวกับผู้ผลิตไวน์ที่โด่งดังอย่าง Chateau Clinet ที่เคยได้รับคะแนนเต็ม 100 จาก Robert Parker ถึงสองครั้ง ไวน์ที่ได้รับการยกย่องว่าเป็นไวน์ที่ “รสชาติคุ้มค่า คุ้มราคา” จึงทำให้มั่นใจได้ว่า Ronan by Clinet ขวดนี้ จะทำให้คุณประทับใจในรสชาติ ที่เข้มข้นละมุน สัมผัสได้ถึงเนื้อองุ่นที่วนเวียนอยู่ในปาก และกลิ่นฟรุตตี้ล้ำลึก ดื่มได้บ่อยเหมาะกับงานเลี้ยงสังสรรค์ หรือแฮงค์เอ้าท์ในวันเบาๆ.</p>
+                                <p>Made from 100% premium Merlot sourced from selected properties around Bordeaux, Ronan by Clinet offers a taste of their magnificent Grand Vin at a fraction of the price. Savour rich blackcurrant and red cherry fruits with a dash of subtle spice and balancing fine tannins. A perfect partner for rich red meats and strong firm cheeses.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>France</li>
+                                    <li><strong>Region:</strong>Bordeaux</li>
+                                    <li><strong>Vintage:</strong>2015</li>
+                                    <li><strong>Colour:</strong>Bright Golden Hue</li>
+                                    <li><strong>Varietal:</strong>Sauvignon Blanc – Semillon</li>
+                                    <li><strong>Wine Style:</strong>White – Green and Flinty</li>
+                                    <li><strong>Alcohol %:</strong> 13.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Meaty and Oily Fish</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿1,100</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- White Wine Card 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/w6.png" class="card-img-top card-img-custom" alt="White Wine 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Gitton Sancerre Les Crilles 2015</h5>
+                        <p class="card-text text-center"><strong>฿1,750</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal6">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for White Wine Card 6 -->
+            <div class="modal fade" id="wineModal6" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel6" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel6">Gitton Sancerre Les Crilles 2015</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/w6.png" class="img-fluid mb-3 modal-img-custom" alt="White Wine 6">
+                            <div class="modal-text">
+                                <p>Very pale gold colour. Citrus fruit aromas, Subtle wine with natural aromas. Good acidity typical of the vintage. Will keep for five years, drink now to retain freshness.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>France</li>
+                                    <li><strong>Region:</strong>Sancerre</li>
+                                    <li><strong>Vintage:</strong>2015</li>
+                                    <li><strong>Colour:</strong>White</li>
+                                    <li><strong>Varietal:</strong>Sauvignon Blanc</li>
+                                    <li><strong>Wine Style:</strong>White – Green and Flinty</li>
+                                    <li><strong>Alcohol %:</strong>12.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Meaty and Oily Fish</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿1,750</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- White Wine Card 7 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/w7.png" class="card-img-top card-img-custom" alt="White Wine 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Gitton Sancerre Les Montachins 2014</h5>
+                        <p class="card-text text-center"><strong>฿1,750</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal7">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for White Wine Card 7 -->
+            <div class="modal fade" id="wineModal7" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel7" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel7">Gitton Sancerre Les Montachins 2014</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/w7.png" class="img-fluid mb-3 modal-img-custom" alt="White Wine 7">
+                            <div class="modal-text">
+                                <p>This wine is steely, with tight acidity and grapefruit and lime flavors. It is bright and lively, with a tense edge that needs to soften over the next few months. Drink from the end of 2016.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>France</li>
+                                    <li><strong>Region:</strong>Sancerrey</li>
+                                    <li><strong>Vintage:</strong>2012</li>
+                                    <li><strong>Colour:</strong>White</li>
+                                    <li><strong>Varietal:</strong>Sauvignon Blanc</li>
+                                    <li><strong>Wine Style:</strong>White – Green and Flinty</li>
+                                    <li><strong>Alcohol %:</strong>12.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Meaty and Oily Fish</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿1,750</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- White Wine Card 8 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/w8.png" class="card-img-top card-img-custom" alt="White Wine 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Gitton Sancerre La Vigne du Larrey 2012</h5>
+                        <p class="card-text text-center"><strong>฿1,750</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal8">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for White Wine Card 8 -->
+            <div class="modal fade" id="wineModal2" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel8" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel8">Gitton Sancerre La Vigne du Larrey 2012</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/w8.png" class="img-fluid mb-3 modal-img-custom" alt="White Wine 8">
+                            <div class="modal-text">
+                                <p>Limpid, intense golden colour. Rich, mature nose with notes of candied lemon, vanilla, almond. Extremely complex palate, smooth, silky texture, delicate aromatic expression. Remarkable wine.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> France</li>
+                                    <li><strong>Region:</strong>Sancerre</li>
+                                    <li><strong>Vintage:</strong>2012</li>
+                                    <li><strong>Colour:</strong>White</li>
+                                    <li><strong>Varietal:</strong>Sauvignon Blanc</li>
+                                    <li><strong>Wine Style:</strong>White – Green and Flinty</li>
+                                    <li><strong>Alcohol %:</strong>12.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Meaty and Oily Fish</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿1,750</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sparkling Wine Card 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s9.png" class="card-img-top card-img-custom" alt="Sparkling Wine 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Bersano castellengo prosecco</h5>
+                        <p class="card-text text-center"><strong>Price:฿1,090</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal9">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Sparkling Wine Card 9 -->
+            <div class="modal fade" id="wineModal9" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel9" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel9">Bersano castellengo prosecco</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s9.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 9">
+                            <div class="modal-text">
+                                <p>Very fine, lasting and uniform perlage. Very fruity and pleasantly aromatic with a delicate and pleasant taste.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Italy</li>
+                                    <li><strong>Region:</strong>Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Light yellow</li>
+                                    <li><strong>Varietal:</strong>Glera</li>
+                                    <li><strong>Alcohol %:</strong>11%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price:฿1,090</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sparkling Wine Card 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s10.png" class="card-img-top card-img-custom" alt="Sparkling Wine 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Veuve Clicquot Brut NV</h5>
+                        <p class="card-text text-center"><strong>Price: ฿3,950</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal10">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Sparkling Wine Card 10 -->
+            <div class="modal fade" id="wineModal10" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel10" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel10">Veuve Clicquot Brut NV</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s10.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 10">
+                            <div class="modal-text">
+                                <p>Veuve Clicquot’s Yellow Label Brut reflects the superb vineyards they own and the consistent nature of their House style.</p>
+                                <p>The predominance of Pinot Noir provides the structure that is so typically Clicquot, while a touch of Pinot Meunier rounds out the blend. Chardonnay adds the elegance and finesse essential in a perfectly balanced wine.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne Brut</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Champagne</li>
+                                    <li><strong>Varietal:</strong>Champagne Blend</li>
+                                    <li><strong>Wine Style:</strong>Sparkling – Complex and Traditional</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,950</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sparkling Wine Card 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s11.png" class="card-img-top card-img-custom" alt="Sparkling Wine 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Tosti 1820 Pink Moscato Sparkling</h5>
+                        <p class="card-text text-center"><strong>Price: ฿1,190</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal11">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Sparkling Wine Card 11 -->
+            <div class="modal fade" id="wineModal11" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel11" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel11">Tosti 1820 Pink Moscato Sparkling</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s11.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 11">
+                            <div class="modal-text">
+                                <p>Tosti Pink Moscato is ideal for surprising aperitifs, for the whole meal and for after hours in the name of freshness, color and seduction. intense and fragrant. The alcohol content, the sweetness and the sharpness are perfectly balanced. In the aftertaste is clearly perceptible the aroma of the grapes and the raspberry and black cherry notes.</p>
+                                <p>Sparkling สีชมพูสวยสดใส ให้รสชาติหวานนุ่มจากองุ่นมอสคาโต้ ความหอมจากราสเบอร์รี่ เรดเบอร์รี่ และแบล็คเชอร์รี่ รสชาติกลมกล่อมสดชื่นลงตัวดื่มง่าย</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Italy</li>
+                                    <li><strong>Region:</strong>Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong> Light yellow</li>
+                                    <li><strong>Varietal:</strong> 85% Moscato, 15% aromatic red grapes vines</li>
+                                    <li><strong>Alcohol %:</strong>7%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿1,190</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sparkling Wine Card 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s12.png" class="card-img-top card-img-custom" alt="Sparkling Wine 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Moet & Chandon Imperial Brut </h5>
+                        <p class="card-text text-center"><strong>Price: ฿3,450</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal12">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Sparkling Wine Card 12 -->
+            <div class="modal fade" id="wineModal12" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel12" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel12">Moet & Chandon Imperial Brut (750 ml)</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s12.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 12">
+                            <div class="modal-text">
+                                <p>Aromas of citrus, flowers, hazlenut and smoke. On the palate a lighter more delicate style of champagne. Quite minerally/chalky with citrus and soda water flavours. Not sweet either. Fine persistent bead. Well balanced with nothing out of place. Dry minerally finish. Very easy to drink. An excellent standing up champagne.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong> Champagne</li>
+                                    <li><strong>Vintage:</strong>NV</li>
+                                    <li><strong>Colour:</strong>Yellow</li>
+                                    <li><strong>Varietal:</strong>Pinot Noir Chardonnay</li>
+                                    <li><strong>Wine Style:</strong>Sparkling</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,450</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="color: red; background-color: transparent; border: none;">
+                                <i class="fa fa-times"></i>
+                            </button>                            
+                            <a href="order.html" class="btn" style="background-color: #7fff749e;">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+    <footer class="footer">
+        <p>&copy; 2024 The Wine Cellar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

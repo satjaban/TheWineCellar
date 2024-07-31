@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine Cellar - Red Wine</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">The Wine Cellar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="RedWine.html">Red Wine</a>
+                        <a class="dropdown-item" href="WhiteWine.html">White Wine</a>
+                        <a class="dropdown-item" href="SparklingWine.html">Sparkling Wine</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center text-gold">Red Wine</h1>
+        <br>
+        <div class="row">
+            <!-- Red Wine Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r1.png" class="card-img-top card-img-custom" alt="Red Wine 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin 2008</h5>
+                        <p class="card-text text-center"><strong>฿32,000</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal1">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    
+            <!-- Modal for Red Wine Card 1 -->
+            <div class="modal fade" id="wineModal1" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel1">Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin 2008</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r1.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 1">
+                            <div class="modal-text">
+                                <p>Kapcsandy Family Winery Cabernet Sauvignon, Grand Vin ไวน์จากแหล่งผลิตไวน์ชั้นยอด Napa Valley จากแคลิฟอร์เนีย เป็นไวน์ Napa ที่ทำออกมาในสไตล์ไวน์ Bordeaux</p>
+                                <p>nky/purple color in addition to an ethereal nose of cassis, chocolate, burning embers, espresso and forest floor. Sweet tannins, a multidimensional mouthfeel, full-bodied power and good structure as well as freshness make for a prodigious example of wine that will benefit from 4-5 years of cellaring, but will keep for 25-30 years.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> United States</li>
+                                    <li><strong>Sub Region:</strong> California</li>
+                                    <li><strong>Vintage:</strong> 2008</li>
+                                    <li><strong>Colour:</strong> Red Purple</li>
+                                    <li><strong>Varietal:</strong> 87% Cabernet Sauvignon and the rest Merlot, Cabernet Franc and Petit Verdot</li>
+                                    <li><strong>Wine Style:</strong> Red – Bold and Structured</li>
+                                    <li><strong>Alcohol %:</strong> 13.5-14%</li>
+                                    <li><strong>Food Suggestion:</strong> Beef and Venison</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿32,000</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r2.png" class="card-img-top card-img-custom" alt="Red Wine 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Domaine Pierre Damoy Chambertin Grand Cru Clos de Beze 2018</h5>
+                        <p class="card-text text-center"><strong>฿35,500</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal2">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 2 -->
+            <div class="modal fade" id="wineModal2" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel2">Domaine Pierre Damoy Chambertin Grand Cru Clos de Beze 2018</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r2.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 2">
+                            <div class="modal-text">
+                                <p>Fragrant, fluid and seductive for the silky texture, with cherry, floral, sandalwood and oak spice aromas and flavors. Well-structured yet deftly balanced, this feels effortless and graceful overall. Reveals licorice and mineral notes on the finish. Best from 2025 through 2046. 40 cases made.</p>
+                                <ul>
+                                    <li><strong>Decanting time:</strong> 1 Hour</li>
+                                    <li><strong>Longevity:</strong> Over 25 years</li>
+                                    <li><strong>Country:</strong> France </li>
+                                    <li><strong>Sub Region:</strong> Burgundy</li>
+                                    <li><strong>Vintage:</strong> 2018</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir</li>
+                                    <li><strong>Alcohol %:</strong>  13.5%</li>
+                                    <li><strong>Food Suggestion:</strong> Chicken and Turkey</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿35,500</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r3.png" class="card-img-top card-img-custom" alt="Red Wine 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Hundred Acre ‘Ark’ Cabernet Sauvignon 2011</h5>
+                        <p class="card-text text-center"><strong>฿17,000</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal3">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 3 -->
+            <div class="modal fade" id="wineModal3" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel3" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel3">Hundred Acre ‘Ark’ Cabernet Sauvignon 2011</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r3.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 3">
+                            <div class="modal-text">
+                                <p>Hundred Acre ไวน์จาก Napa Valley บริเวณเทือกเขา Howell Mountain ที่มีชื่อเสียงในการทำไวน์สไตล์ robust and complex red wines.</p>
+                                <p>Slightly better is the 2011 Cabernet Sauvignon Arc Vineyard from Howell Mountain. This wine offers even denser fruit, loads of graphite, mulberry, and blackberry fruit, an enticing minerality, a full-bodied mouthfeel</p>
+                                <ul>
+                                    <li><strong>Country:</strong> United States</li>
+                                    <li><strong>Sub Region:</strong> California/Howell Mountain</li>
+                                    <li><strong>Vintage:</strong> 2011</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Cabernet Sauvignon</li>
+                                    <li><strong>Wine Style:</strong>  Red – Bold and Structured</li>
+                                    <li><strong>Alcohol %:</strong>  16%</li>
+                                    <li><strong>Food Suggestion:</strong> Beef and Venison</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿17,000</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r4.png" class="card-img-top card-img-custom" alt="Red Wine 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Prieure Roch Nuits St Georges Premier Cru Le Clos Des Corvees 2020</h5>
+                        <p class="card-text text-center"><strong>฿24,500</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal4">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+            <!-- Modal for Red Wine Card 4 -->
+            <div class="modal fade" id="wineModal4" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel4" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel4">Prieure Roch Nuits St Georges Premier Cru Le Clos Des Corvees 2020</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r4.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 4">
+                            <div class="modal-text">
+                                <p>In 1988 Henri-Frédéric Roch, co-director of Domaine de la Romanée-Conti and grandson of Henri Leroy, decided to create his own exclusive domaine from some of DRC’s choicest parcels in Vosne-Romanée. He handpicked prime parcels in Vosne-Romanée from Domaine de la Romanée-Conti, infusing his deep Burgundian understanding into each vine.</p>
+                                <p>These are some of the world’s most prestigious wines from one of Burgundy’s most hallowed growers, so it is an exceptionally special addition to the Honest Grapes collection, which stands at a calibre that we would feel extremely lucky to have in our very own wine cellar.</p>
+                                <p>The resulting wines have a special purity and complexity which is hard to encapsulate. Vibrant, fresh aromatics and very bright acidity are balanced by superbly ripe, sophisticated fruit and spice flavours. Like the wines of other great minimal-interventionist producers (Vincenzo Abruzzese at Valdicava, for example), they can be enjoyed young but are also capable of long-term cellaring.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> France</li>
+                                    <li><strong>Sub Region:</strong> Burgundy</li>
+                                    <li><strong>Vintage:</strong> 2020</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir</li>
+                                    <li><strong>Alcohol %:</strong>  13.5%</li>
+                                    <li><strong>Food Suggestion:</strong> Chicken and Turkey</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿24,500</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r5.png" class="card-img-top card-img-custom" alt="Red Wine 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Bacio Divino Napa Valley Red 2013</h5>
+                        <p class="card-text text-center"><strong>฿5,650</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal5">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Winee Card 5 -->
+            <div class="modal fade" id="wineModal5" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel5" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel5">Bacio Divino Napa Valley Red 2013</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r5.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 5">
+                            <div class="modal-text">
+                                <p>2013 was a great vintage in our Valley with smaller yields offering intense flavors. Our latest offering of Janzen Napa Valley Cabernet showcases the characteristics of the vineyards from which this wine was produced.</p>
+                                <p>Hillside fruit from our estate provides the structure and body necessary for longevity. The finesse offered by Cabernet grown on the valley floor in Rutherford and Oakville tames the power of this wine and maintains the elegance we have come to expect.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> United States</li>
+                                    <li><strong>Sub Region:</strong> California</li>
+                                    <li><strong>Vintage:</strong> 2013</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Cabernet Sauvignon</li>
+                                    <li><strong>Wine Style:</strong> Red – Bold and Structured</li>
+                                    <li><strong>Alcohol %:</strong>  14-15.2%</li>
+                                    <li><strong>Food Suggestion:</strong> Beef and Venison</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿5,650</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r6.png" class="card-img-top card-img-custom" alt="Red Wine 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Montes Alpha Cabernet Sauvignon 2019</h5>
+                        <p class="card-text text-center"><strong>฿1,340</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal6">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 6 -->
+            <div class="modal fade" id="wineModal6" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel6" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel6">Montes Alpha Cabernet Sauvignon 2019</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r6.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 6">
+                            <div class="modal-text">
+                                <p>The nose is complex with varied aromas of ripe black and red fruits such as blackberries, figs, and plums in syrup. Spice notes of black and red pepper intermingle with a touch of fresh tobacco and leather.</p>
+                                <p>This is a well-structured wine with good volume on the palate and smooth, round tannins that make this an ideal wine to enjoy now or over the course of the next 10 years.</p>
+                                <ul>
+                                    <li><strong>Decanting time:</strong> 3 minutes</li>
+                                    <li><strong>Drink between :</strong> Now</li>
+                                    <li><strong>Country:</strong> Chile</li>
+                                    <li><strong>Sub Region:</strong> Colchagua Valley</li>
+                                    <li><strong>Vintage:</strong> 2019</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Cabernet Sauvignon 90%, Merlot 10%</li>
+                                    <li><strong>Alcohol %:</strong>  14.5%</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿1,340</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Red Wine Card 7 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r7.png" class="card-img-top card-img-custom" alt="Red Wine 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Domaine Patrice Rion Nuits Saint Georges 1er Cru Clos Saint Marc 2017</h5>
+                        <p class="card-text text-center"><strong>฿5,750</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal7">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 7 -->
+            <div class="modal fade" id="wineModal7" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel7" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel7">Domaine Patrice Rion Nuits Saint Georges 1er Cru Clos Saint Marc 2017</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r7.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 7">
+                            <div class="modal-text">
+                                <p>The wine is deep, dark and intense, foreshadowing a powerful nose. Unpitted wild cherries dominate the nose, along with a typical Nuits warm-earth aroma, though without any heaviness. The nose is ripe with nobility. The wine shows a full body, with incomparably silky tannins giving a rich meatiness. This is a wine with a strong personality. The balanced finish leaves the impression of opulence, and an unparalleled length is supported by minerality and a lovely complexity.</p>
+                                <p>Its noble, strong character works well with juicy, meaty dishes such as lamb, tournedos Rossini and duckling.</p>
+                                <p>Powerful yellow marl below the broken limestone gravel and brown clay at the top. This is very fine indeed and does not seem to have suffered. Clear light purple colour, a bouquet of precision and elegance in little red berries, not too ripe at all, though the finish offers a little more of a rounded ripe feel. Very persistent.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> France</li>
+                                    <li><strong>Sub Region:</strong> Burgundy</li>
+                                    <li><strong>Vintage:</strong> 2017</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong>Pinot Noir</li>
+                                    <li><strong>Alcohol %:</strong> 13.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Chicken and Turkey</li>
+                                    <li><strong>Provenance (Old/New World):</strong>Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿5,750</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 8 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r8.png" class="card-img-top card-img-custom" alt="Red Wine 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Filia de Grand Mayne 2017</h5>
+                        <p class="card-text text-center"><strong>฿2,250</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal8">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 8 -->
+            <div class="modal fade" id="wineModal2" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel8" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel8">Filia de Grand Mayne 2017</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r8.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 8">
+                            <div class="modal-text">
+                                <p>From the prestigious domain of Filia De Grand Mayne located in ST EMILION GRAND CRU, this wine will captivate you with its aromatic complexity and intense color. Carefully selected grape varieties and ancestral know-how ensure an unforgettable tasting experience with each sip. A balanced and refined red wine for connoisseurs.</p>
+                                <p>Filia De Grand Mayne is the ideal choice for wine enthusiasts seeking authenticity and excellence. Its harmonious structure and long finish make it a wine of character, to be enjoyed on special occasions or gifted to loved ones.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Bordeaux, France</li>
+                                    <li><strong>Region:</strong>Saint-Emilion Grand Cru</li>
+                                    <li><strong>Vintage:</strong>2017</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong> Bordeaux Red Blend</li>
+                                    <li><strong>Alcohol %:</strong> 13-14%</li>
+                                    <li><strong>Food Suggestion:</strong>Beef and Vension</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿2,250</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r9.png" class="card-img-top card-img-custom" alt="Red Wine 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Villarrica Cabernet Sauvignon 2015</h5>
+                        <p class="card-text text-center"><strong>฿850</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal9">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 9 -->
+            <div class="modal fade" id="wineModal9" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel9" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel9">Villarrica Cabernet Sauvignon 2015</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r9.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 9">
+                            <div class="modal-text">
+                                <p>Villarrica Cabernet Sauvignon ไวน์แดงจากชิลีตัวนี้เป็นไวน์ที่ดื่มง่ายเหมาะกับนักดื่มสายปาร์ตี้ ดื่มง่ายไม่ฝาด มีความเป็นฟรุตตี้สูง เข้าใจง่ายไม่ซับซ้อน แถมมีราคาย่อมเยาว์เหมาะกับนักดื่มรุ่นใหม่ อีกทั้งยังมีฝาเกลียวเปิดง่าย ไม่ต้องเรื่องมาก ดื่มได้ทุกวันเพื่อเรียกน้ำย่อยก่อนอาหาร</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Chile</li>
+                                    <li><strong>Sub Region:</strong>Maule Valley</li>
+                                    <li><strong>Vintage:</strong>2016</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong>Cabernet Sauvignon 100%</li>
+                                    <li><strong>Alcohol %:</strong>13%</li>
+                                    <li><strong>Provenance (Old/New World):</strong>New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿850</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r10.png" class="card-img-top card-img-custom" alt="Red Wine 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Villarrica Cabernet Sauvignon 2015</h5>
+                        <p class="card-text text-center"><strong>฿850</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal10">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 10 -->
+            <div class="modal fade" id="wineModal10" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel10" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel10">Villarrica Cabernet Sauvignon 2015</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r10.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 10">
+                            <div class="modal-text">
+                                <p>Villarrica Cabernet Sauvignon ไวน์แดงจากชิลีตัวนี้เป็นไวน์ที่ดื่มง่ายเหมาะกับนักดื่มสายปาร์ตี้ ดื่มง่ายไม่ฝาด มีความเป็นฟรุตตี้สูง เข้าใจง่ายไม่ซับซ้อน แถมมีราคาย่อมเยาว์เหมาะกับนักดื่มรุ่นใหม่ อีกทั้งยังมีฝาเกลียวเปิดง่าย ไม่ต้องเรื่องมาก ดื่มได้ทุกวันเพื่อเรียกน้ำย่อยก่อนอาหาร</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Chile</li>
+                                    <li><strong>Sub Region:</strong>Maule Valley</li>
+                                    <li><strong>Vintage:</strong>2016</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong>Cabernet Sauvignon 100%</li>
+                                    <li><strong>Alcohol %:</strong>13%</li>
+                                    <li><strong>Provenance (Old/New World):</strong>New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿850</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r11.png" class="card-img-top card-img-custom" alt="Red Wine 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandpiper Shiraz Barossa 2019</h5>
+                        <p class="card-text text-center"><strong>฿990</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal11">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 11 -->
+            <div class="modal fade" id="wineModal11" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel11" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel11">Sandpiper Shiraz Barossa 2019</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r11.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 11">
+                            <div class="modal-text">
+                                <p>This is an excellent value for money Barossa Shiraz which easily stands up when compared to significantly more expensive bottles of the same region.</p>
+                                <p>Lighter in style that usual, the wine offers aromas of sweet berry fruits, plums, pepper and spice. There is rich fruit on the palate displaying plums, blackberry and sweet spice from the subtle oak. Nice soft tannins are accompanied by great length of fruit flavour.</p>
+                                <ul>
+                                    <li><strong>Drink between :</strong>Now</li>
+                                    <li><strong>Style :</strong>Full-bodied</li>
+                                    <li><strong>Country:</strong>Australia</li>
+                                    <li><strong>Sub Region:</strong>South Eastern Australia</li>
+                                    <li><strong>Vintage:</strong> 2019</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong>Shiraz</li>
+                                    <li><strong>Alcohol %:</strong>14%</li>
+                                    <li><strong>Provenance (Old/New World):</strong>New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿990</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Red Wine Card 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/r12.png" class="card-img-top card-img-custom" alt="Red Wine 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa Patronales ‘Chucaro’ Cabernet Sauvignon 2012</h5>
+                        <p class="card-text text-center"><strong>฿890</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal12">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Red Wine Card 12 -->
+            <div class="modal fade" id="wineModal12" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel12" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel12">Casa Patronales ‘Chucaro’ Cabernet Sauvignon 2012</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/r12.png" class="img-fluid mb-3 modal-img-custom" alt="Red Wine 12">
+                            <div class="modal-text">
+                                <p>Casa Patronales ‘Chucaro’ ไวน์ที่มีสีเข้มเต็มไปด้วยผลไม้สดซึ่งทำให้มีความหวาน เป็นไวน์ที่มีน้ำหนักเบาดื่มสนุก เหมาะกับงานสังสรรค์หรือสนทนาพาเพลิน.</p>
+                                <p>Chúcaro represents wines with great intensity of colour and fresh fruit-filled youth, which leave Sweetness of, fresh memories on the palate. These are light, daringly soft wines, suitable for a wide range of occasions; enjoy them with food or during a conversation.</p>
+                                <ul>
+                                    <li><strong>Drink between</strong>Now</li>
+                                    <li><strong>Country:</strong>Chile</li>
+                                    <li><strong>Sub Region:</strong>Maule Valley</li>
+                                    <li><strong>Vintage:</strong>2012</li>
+                                    <li><strong>Colour:</strong> Red</li>
+                                    <li><strong>Varietal:</strong>Cabernet Sauvignon 100%</li>
+                                    <li><strong>Alcohol %:</strong>13.5%</li>
+                                    <li><strong>Provenance (Old/New World):</strong> New World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>฿890</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+  <style>
+      .card-price {
+          font-size: 1.25rem;
+          font-weight: bold;
+          color: #333;
+      }
+      .btn-dark i {
+          margin-right: 8px;
+      }
+  </style>
+  
+  
+
+
+  <footer class="footer">
+      <p>&copy; 2024 The Wine Cellar. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

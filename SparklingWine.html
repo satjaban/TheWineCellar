@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine Cellar - Sparkling Wine</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">The Wine Cellar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="RedWine.html">Red Wine</a>
+                        <a class="dropdown-item" href="WhiteWine.html">White Wine</a>
+                        <a class="dropdown-item" href="SparklingWine.html">Sparkling Wine</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center text-gold">Sparkling Wine</h1>
+        <br>
+        <div class="row">
+            <!-- Sparkling Wine Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s1.png" class="card-img-top card-img-custom" alt="Sparkling Wine 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ruinart Rose</h5>
+                        <p class="card-text text-center"><strong>Price: ฿5,150</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal1">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 1 -->
+            <div class="modal fade" id="wineModal1" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content modal-custom">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel1">Ruinart Rose</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s1.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 1">
+                            <div class="modal-text">
+                                <p>Ruinart Rose Champagne เป็นแชมเปญที่เก่าแก่ที่สุดในโลก ทำจากองุ่นพันธุ์ Pinot Noir และ Chardonnay สดชื่น หอมผลไม้ตระกูลเบอร์รี่แดง ขนมปังปิ้ง กุหลาบแดงอ่อนๆ เมื่ออยู่ในแก้วยิ่งซับซ้อน เต็มไปด้วยกลิ่น และรสสัมผัสที่แปลกใหม่อยู่ตลอดเวลา ฟูลบอดี้ จบยาว.  Dosage: 8g/L</p>
+                                <p>Recommended Serving Temperature: 8-10 °C</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne Brut</li>
+                                    <li><strong>Vintage:</strong>NV</li>
+                                    <li><strong>Colour:</strong>Champagne</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir and Chardonnay</li>
+                                    <li><strong>Wine Style:</strong>Sparkling – Complex and Traditional</li>
+                                    <li><strong>Alcohol %:</strong>12.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong>Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿5,150</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s2.png" class="card-img-top card-img-custom" alt="Sparkling Wine 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tosti Prosecco Extra Dry</h5>
+                        <p class="card-text text-center"><strong>Price: ฿950</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal2">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 2 -->
+            <div class="modal fade" id="wineModal2" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel2">Tosti Prosecco Extra Dry</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s2.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 2">
+                            <div class="modal-text">
+                                <p>Light straw yellow with sparkling reflections Gentle and fresh. The delicate aromatic note blends with the fruity notes Mellow and lively. A well balanced match of the typical aroma and the slightly bitterish note. The aftertaste is pleasant and clear.</p>
+                                <ul>
+                                    <li><strong>Country:</strong> Italy</li>
+                                    <li><strong>Region:</strong> Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong> Light yellow</li>
+                                    <li><strong>Varietal:</strong> Glera</li>
+                                    <li><strong>Alcohol %:</strong> 11%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong>Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price:฿950</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s3.png" class="card-img-top card-img-custom" alt="Sparkling Wine 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Laurent-Perrier La Cuvee Brut</h5>
+                        <p class="card-text text-center"><strong>Price: ฿3,450</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal3">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 3 -->
+            <div class="modal fade" id="wineModal3" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel3" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel3">Laurent-Perrier La Cuvee Brut</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s3.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 3">
+                            <div class="modal-text">
+                                <p>This is lovely, the aromas and flavors run long into the finish with notes of light butter biscuits, subtle cooked apples and peaches. It’s full yet balanced and long. Lovely texture. Lots of flavor and polished textured bubbles. The base in the current release is 2016 vintage. 50% chardonnay, 35% pinot noir and 15% pinot meunier. Disgorged in December 2022. Drink now.</p>
+                                <p>The wine comes from the purest grape juice and it alone allows Laurent-Perrier to craft ‘La Cuvée’, a champagne of great finesse and a beautiful freshness obtained after a long ageing process in our cellars.</p>
+                                <p>Pale gold in color. Fine bubbles feed a persistent mousse. A delicate nose with hints of fresh citrus and white flowers. The wine’s complexity is expressed in successive notes like vine peach and white fruits notes. A perfect balance between freshness and delicacy with fruity flavors very present on the finish.</p>
+                                <p>This fresh and pure wine is perfect for an apéritif. Its citrus and white fruits notes and its remarkable balance supported by a subtle effervescence, make it an ideal accompaniment to poultry and the finest fish.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Yellow</li>
+                                    <li><strong>Varietal:</strong>50% chardonnay, 35% pinot noir and 15% pinot meunier</li>
+                                    <li><strong>Wine Style:</strong>Sparkling</li>
+                                    <li><strong>Alcohol %:</strong> 12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,450</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s4.png" class="card-img-top card-img-custom" alt="Sparkling Wine 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Champagne Billecart-Salmon Brut Reserve NV</h5>
+                        <p class="card-text text-center"><strong>Price: ฿2,500</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal4">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 4 -->
+            <div class="modal fade" id="wineModal4" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel4" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel4">Champagne Billecart-Salmon Brut Reserve NV</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s4.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 4">
+                            <div class="modal-text">
+                                <p>Champagne Billecart-Salmon Brut Reserve NV แชมเปญขวดนี้ ทำให้นึกถึง ฟองที่เพิ่มขึ้นอย่างช้าๆเวลารินใส่แก้ว, จะสัมผัสได้ถึง กลิ่นของลูกแพร์และ กลิ่นหอมอันมหัศจรรย์ของแป้งเบาๆ ดอกไม้สด ลูกแพร์หั่นฝอยและลูกพีช ทำให้สัมผัสได้ถึงความมีชีวิตชีวา และความสดชื่น</p>
+                                <p>Champagne, France -Fine bubbles which rise slowly, persistent mousse. Straw-colored. A nose of ripe pear with some touches of cut hay. Wonderful aromas of light dough, fresh flowers, and sliced pears and peaches. Full-bodied yet agile and fresh.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne Brut</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong> Champagne</li>
+                                    <li><strong>Varietal:</strong>Champagne Blend</li>
+                                    <li><strong>Wine Style:</strong>Sparkling – Complex and Traditional</li>
+                                    <li><strong>Alcohol %:</strong>12%li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong>Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿2,500</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s5.png" class="card-img-top card-img-custom" alt="Sparkling Wine 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Tosti 1820 Moscato Sparkling</h5>
+                        <p class="card-text text-center"><strong>Price: ฿1,190</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal5">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 5 -->
+            <div class="modal fade" id="wineModal5" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel5" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel5">Tosti 1820 Moscato Sparkling</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s5.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 5">
+                            <div class="modal-text">
+                                <p>The typical fragrance of Moscato grapes gives sweet and aromatic bubbles ideal for enhancing desserts, fruit, ice cream and dry pastries. Fragrant and harmonious, with a fine and persistent perlage, Moscato Spumante Tosti is served fresh. It excels and surprises even throughout the meal.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Italy</li>
+                                    <li><strong>Region:</strong>Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Light yellow</li>
+                                    <li><strong>Varietal:</strong>Moscato bianco</li>
+                                    <li><strong>Alcohol %:</strong> 7%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿1,190</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s6.png" class="card-img-top card-img-custom" alt="Sparkling Wine 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Perrier Jouet Champagne Grand Brut</h5>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal6">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 6 -->
+            <div class="modal fade" id="wineModal6" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel6" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel6">Perrier Jouet Champagne Grand Brut</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s6.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 6">
+                            <div class="modal-text">
+                                <p>Perrier Jouet ให้รสสัมผัสของดอกไม้สีขาวหอมฟุ้ง แซมด้วยกลิ่นของแอปเปิ้ล และผลไม้สีเหลือง น้ำแร่ และมีความเปรี้ยวนิดๆ เหมือนลูกเลม่อน ทำให้รู้สึกสดชื่น</p>
+                                <p>PJ has a reputation for elegant Champagnes, and its lovely non-vintage is no exception. It has a fairly soft, round mouthfeel with flavours of baked apple and even some yellow fruits. There’s some cutting minerality and lemony acidity on the finish which refreshes the palate and leaves you wanting another sip.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong> Champagne</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong> Yellow</li>
+                                    <li><strong>Varietal:</strong> Pinot Noir/Chardonnay/Pinot Meunier</li>
+                                    <li><strong>Wine Style:</strong>Sparkling</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong> Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,650</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sparkling Wine Card 7 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s7.png" class="card-img-top card-img-custom" alt="Sparkling Wine 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Champagne Philipponnat “Royale Reserve”</h5>
+                        <p class="card-text text-center"><strong>Price: ฿2,550</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal7">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 7 -->
+            <div class="modal fade" id="wineModal7" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel7" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel7">Champagne Philipponnat “Royale Reserve”</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s7.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 7">
+                            <div class="modal-text">
+                                <p>An attractively complex nose of brioche, pear and green apple leads to delicious flavors that possess excellent complexity as well as an aggressively effervescent nose that flirts with being foamy. There is excellent verve to the clean, crisp and well-balanced finish and this is drier than the dosage would typically suggest.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>France</li>
+                                    <li><strong>Region:</strong> Champagne</li>
+                                    <li><strong>Vintage:</strong>NV</li>
+                                    <li><strong>Colour:</strong>Bright Gold</li>
+                                    <li><strong>Varietal:</strong>Pinot Noir 65%, Chardonnay 30%, Meunier 5%</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿2,550</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 8 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s8.png" class="card-img-top card-img-custom" alt="Sparkling Wine 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Ruinart Blanc de Blancs Champagne</h5>
+                        <p class="card-text text-center"><strong>Price:฿4,950</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal8">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 8 -->
+            <div class="modal fade" id="wineModal8" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel8" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel8">Ruinart Blanc de Blancs Champagne</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s8.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 8">
+                            <div class="modal-text">
+                                <p>Ruinart is one of Champagne’s oldest houses, founded by Nicholas Ruinart in 1729, himself a descendent of Dom Thierry Ruinart, the other “Dom” responsible for so much of the early viticultural progress of the appellation. Only Gosset is older, but apparently Ruinart was first to base his business on sparkling, rather than still Champagne. This Blanc de Blancs is made exclusively from Grand and Premier Cru Chardonnay, much of which is estate fruit from the biggest land-holder in all of Champagne: Ruinart’s parent company LVMH. The feature that sets this stainless steel-fermented wine apart from other Blanc de Blancs is the combination of grapes from both the Côtes de Blancs and the Montagne de Reims, giving it a more rounded style.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne Brut</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Champagne/li>
+                                    <li><strong>Varietal:</strong>100% Chardonnay</li>
+                                    <li><strong>Wine Style:</strong>Sparkling – Complex and Traditional</li>
+                                    <li><strong>Alcohol %:</strong>12.5%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿4,950</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s9.png" class="card-img-top card-img-custom" alt="Sparkling Wine 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Bersano castellengo prosecco</h5>
+                        <p class="card-text text-center"><strong>Price:฿1,090</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal9">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 9 -->
+            <div class="modal fade" id="wineModal9" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel9" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel9">Bersano castellengo prosecco</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s9.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 9">
+                            <div class="modal-text">
+                                <p>Very fine, lasting and uniform perlage. Very fruity and pleasantly aromatic with a delicate and pleasant taste.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Italy</li>
+                                    <li><strong>Region:</strong>Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Light yellow</li>
+                                    <li><strong>Varietal:</strong>Glera</li>
+                                    <li><strong>Alcohol %:</strong>11%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price:฿1,090</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s10.png" class="card-img-top card-img-custom" alt="Sparkling Wine 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Veuve Clicquot Brut NV</h5>
+                        <p class="card-text text-center"><strong>Price: ฿3,950</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal10">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 10 -->
+            <div class="modal fade" id="wineModal10" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel10" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel10">Veuve Clicquot Brut NV</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s10.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 10">
+                            <div class="modal-text">
+                                <p>Veuve Clicquot’s Yellow Label Brut reflects the superb vineyards they own and the consistent nature of their House style.</p>
+                                <p>The predominance of Pinot Noir provides the structure that is so typically Clicquot, while a touch of Pinot Meunier rounds out the blend. Chardonnay adds the elegance and finesse essential in a perfectly balanced wine.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong>Champagne Brut</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong>Champagne</li>
+                                    <li><strong>Varietal:</strong>Champagne Blend</li>
+                                    <li><strong>Wine Style:</strong>Sparkling – Complex and Traditional</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,950</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s11.png" class="card-img-top card-img-custom" alt="Sparkling Wine 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Tosti 1820 Pink Moscato Sparkling</h5>
+                        <p class="card-text text-center"><strong>Price: ฿1,190</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal11">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 11 -->
+            <div class="modal fade" id="wineModal11" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel11" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel11">Tosti 1820 Pink Moscato Sparkling</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s11.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 11">
+                            <div class="modal-text">
+                                <p>Tosti Pink Moscato is ideal for surprising aperitifs, for the whole meal and for after hours in the name of freshness, color and seduction. intense and fragrant. The alcohol content, the sweetness and the sharpness are perfectly balanced. In the aftertaste is clearly perceptible the aroma of the grapes and the raspberry and black cherry notes.</p>
+                                <p>Sparkling สีชมพูสวยสดใส ให้รสชาติหวานนุ่มจากองุ่นมอสคาโต้ ความหอมจากราสเบอร์รี่ เรดเบอร์รี่ และแบล็คเชอร์รี่ รสชาติกลมกล่อมสดชื่นลงตัวดื่มง่าย</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Italy</li>
+                                    <li><strong>Region:</strong>Veneto</li>
+                                    <li><strong>Vintage:</strong> NV</li>
+                                    <li><strong>Colour:</strong> Light yellow</li>
+                                    <li><strong>Varietal:</strong> 85% Moscato, 15% aromatic red grapes vines</li>
+                                    <li><strong>Alcohol %:</strong>7%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿1,190</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Sparkling Wine Card 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/s12.png" class="card-img-top card-img-custom" alt="Sparkling Wine 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Moet & Chandon Imperial Brut </h5>
+                        <p class="card-text text-center"><strong>Price: ฿3,450</strong></p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-view" data-toggle="modal" data-target="#wineModal12">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal for Sparkling Wine Card 12 -->
+            <div class="modal fade" id="wineModal12" tabindex="-1" role="dialog" aria-labelledby="wineModalLabel12" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="wineModalLabel12">Moet & Chandon Imperial Brut (750 ml)</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/s12.png" class="img-fluid mb-3 modal-img-custom" alt="Sparkling Wine 12">
+                            <div class="modal-text">
+                                <p>Aromas of citrus, flowers, hazlenut and smoke. On the palate a lighter more delicate style of champagne. Quite minerally/chalky with citrus and soda water flavours. Not sweet either. Fine persistent bead. Well balanced with nothing out of place. Dry minerally finish. Very easy to drink. An excellent standing up champagne.</p>
+                                <ul>
+                                    <li><strong>Country:</strong>Champagne, France</li>
+                                    <li><strong>Region:</strong> Champagne</li>
+                                    <li><strong>Vintage:</strong>NV</li>
+                                    <li><strong>Colour:</strong>Yellow</li>
+                                    <li><strong>Varietal:</strong>Pinot Noir Chardonnay</li>
+                                    <li><strong>Wine Style:</strong>Sparkling</li>
+                                    <li><strong>Alcohol %:</strong>12%</li>
+                                    <li><strong>Food Suggestion:</strong>Shellfish, Crab and Lobster</li>
+                                    <li><strong>Provenance (Old/New World):</strong> Old World</li>
+                                    <li><strong>Bottle Size:</strong> 750 ml</li>
+                                </ul>
+                                <p><strong>Price: ฿3,450</strong></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <a href="order.html" class="btn btn-order">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+    <style>
+        .card-price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .btn-dark i {
+            margin-right: 8px;
+        }
+    </style>
+    
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 The Wine Cellar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

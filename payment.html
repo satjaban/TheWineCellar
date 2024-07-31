@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine Cellar - Payment</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">The Wine Cellar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="RedWine.html">Red Wine</a>
+                        <a class="dropdown-item" href="WhiteWine.html">White Wine</a>
+                        <a class="dropdown-item" href="SparklingWine.html">Sparkling Wine</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="payment.html">Payment</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center">Payment</h1>
+        <div class="payment-form order-form"> <!-- Reusing order-form class for styling -->
+            <p>Please follow the instructions below to complete your payment. Attach your payment slip for confirmation.</p>
+            <form action="submit_payment.php" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="orderID">Order ID</label>
+                    <input type="text" class="form-control" id="orderID" name="orderID" required>
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="number" class="form-control" id="amount" name="amount" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Payment Method</label>
+                    <select class="form-control" id="paymentMethod" name="paymentMethod">
+                        <option>Bank Transfer</option>
+                        <option>Credit Card</option>
+                        <option>PayPal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="paymentSlip">Upload Payment Slip</label>
+                    <input type="file" class="form-control-file" id="paymentSlip" name="paymentSlip" required>
+                </div>
+                <button type="submit" class="btn btn-dark btn-block">Submit Payment</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 The Wine Cellar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

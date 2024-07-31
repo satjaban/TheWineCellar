@@ -1,0 +1,272 @@
+/* styles.css */
+
+/* กำหนดพื้นหลังและสีข้อความสำหรับ body */
+body {
+    background-color: #f9f9f9b0; /* สีพื้นหลังของ body */
+    color: #361c0c; /* สีข้อความ */
+    font-family: 'Georgia', serif; /* ฟอนต์ */
+}
+
+/* กำหนดพื้นหลัง, สีข้อความ, และการจัดการของ footer */
+.footer {
+    background-color: #441818; /* สีพื้นหลังของ footer */
+    color: #ffd700; /* สีข้อความใน footer */
+    padding: 20px; /* การเว้นระยะของ footer */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    width: 100%; /* ความกว้างของ footer */
+}
+
+/* กำหนดพื้นหลังและสีข้อความสำหรับ navbar */
+.navbar {
+    background-color: #441818; /* สีพื้นหลังของ navbar */
+    padding: 15px 0; /* เพิ่มการเว้นระยะด้านบนและด้านล่างของ navbar */
+}
+
+/* กำหนดลักษณะของ navbar-brand */
+.navbar-brand {
+    font-size: 2rem; /* ขนาดตัวอักษรของแบรนด์ใน navbar */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    color: #ffd700; /* สีข้อความของแบรนด์ */
+    flex: 1; /* ใช้พื้นที่ที่เหลือทั้งหมด */
+}
+
+/* กำหนดลักษณะของการ์ดใน order-form */
+.order-form {
+    max-width: 600px;
+    margin: 0 auto; /* จัดการ์ดให้อยู่กลาง */
+    padding: 20px;
+    background-color: #ffffff; /* สีพื้นหลังของการ์ด */
+    border: 1px solid #ddd; /* สีขอบของการ์ด */
+    border-radius: 10px; /* ขอบโค้งมนของการ์ด */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เงาของการ์ด */
+}
+
+/* กำหนดลักษณะของปุ่ม */
+.btn-dark {
+    background-color: #ff888887; /* สีพื้นหลังของปุ่ม */
+    color: #361c0c; /* สีข้อความของปุ่ม */
+    border: none; /* ไม่มีขอบ */
+    border-radius: 5px; /* ขอบโค้งมน */
+}
+
+/* กำหนดลักษณะของปุ่มเมื่อ hover */
+.btn-dark:hover {
+    background-color: #e1e1e1; /* สีพื้นหลังของปุ่มเมื่อ hover */
+    color: #8b0000; /* สีข้อความของปุ่มเมื่อ hover */
+}
+
+
+/* กำหนดลักษณะของรายการใน dropdown menu */
+.dropdown-menu {
+    background-color: #ffffff; /* สีพื้นหลังของ dropdown menu */
+    border: none; /* ไม่มีเส้นขอบ */
+}
+
+/* กำหนดลักษณะของรายการใน dropdown menu */
+.dropdown-item {
+    color: #441818; /* สีข้อความใน dropdown item */
+}
+
+/* กำหนดลักษณะของรายการใน dropdown menu เมื่อ hover */
+.dropdown-item:hover {
+    color: #8b0000; /* สีข้อความใน dropdown item เมื่อ hover */
+    background-color: #e1e1e1; /* สีพื้นหลังของ dropdown item เมื่อ hover */
+}
+
+/* กำหนดลักษณะของ hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* ความสูงของ hero section */
+    background: url('your-image.jpg') no-repeat center center/cover; /* รูปภาพพื้นหลัง */
+    color: #675454; /* สีข้อความ */
+}
+
+/* กำหนดลักษณะของ carousel */
+.carousel {
+    height: 65vh; /* ความสูงของ carousel */
+    overflow: hidden; /* ซ่อน overflow เพื่อรักษาความสูง */
+}
+
+.carousel-inner {
+    height: 100%; /* ความสูงของ inner carousel */
+}
+
+.carousel-item {
+    height: 100%; /* ความสูงของ carousel items */
+}
+
+.carousel-item img {
+    height: 100%; /* ความสูงของรูปภาพใน carousel */
+    object-fit: cover; /* ปรับขนาดรูปภาพให้พอดีกับพื้นที่ */
+    width: 100%; /* ความกว้างของรูปภาพใน carousel */
+}
+
+/* กำหนดลักษณะของการ์ด */
+.card {
+    border-radius: 15px; /* ทำให้มุมการ์ดโค้งมน */
+    overflow: hidden; /* ซ่อนเนื้อหาที่เกินออกจากการ์ด */
+    height: 100%; /* ความสูงเต็ม */
+    margin-bottom: 20px; /* ช่องว่างระหว่างการ์ด */
+}
+
+/* กำหนดลักษณะของรูปภาพในการ์ด */
+.card-img-top {
+    width: 30%; /* ความกว้างของรูปภาพการ์ด */
+    height: auto; /* ความสูงอัตโนมัติ */
+    display: block; /* แสดงรูปภาพเป็นบล็อก */
+    margin-left: auto; /* จัดตำแหน่งซ้าย */
+    margin-right: auto; /* จัดตำแหน่งขวา */
+}
+
+/* กำหนดลักษณะของเนื้อหาภายในการ์ด */
+.card-body {
+    display: flex; /* ใช้ Flexbox */
+    flex-direction: column; /* แนวตั้ง */
+    justify-content: space-between; /* จัดเนื้อหาให้กระจาย */
+    height: 100%; /* ความสูงเต็ม */
+    background-color: #a3a1a134; /* สีพื้นหลังของ card-body */
+    padding: 20px; /* การเว้นระยะภายใน */
+    border-radius: 8px; /* ทำให้มุมของการ์ดโค้งมน */
+}
+
+/* กำหนดลักษณะของข้อความและชื่อภายในการ์ด */
+.card-text, .card-title {
+    margin-bottom: 10px; /* ช่องว่างด้านล่างของข้อความ */
+}
+
+/* กำหนดลักษณะของปุ่มดู */
+.btn-view {
+    background-color: #ff888800; /* สีพื้นหลังโปร่งใส */
+}
+
+/* กำหนดลักษณะของปุ่มสั่งซื้อ */
+.btn-order {
+    background-color: #ff888887; /* สีพื้นหลังแดงใส */
+}
+
+/* กำหนดลักษณะของรูปภาพใน modal */
+.modal-img-custom {
+    width: 100%; /* ความกว้างของรูปภาพใน modal */
+    height: auto; /* ความสูงอัตโนมัติ */
+}
+
+/* กำหนดลักษณะของ modal-header */
+.modal-header {
+    background-color: #ff888887; /* สีพื้นหลังของ modal-header */
+    color: #361c0c; /* สีข้อความของ modal-header */
+    border-bottom: 1px solid #ff888887; /* เส้นขอบด้านล่างของ modal-header */
+}
+
+/* กำหนดลักษณะของข้อความใน modal-header */
+.modal-header .modal-title {
+    color: #361c0c; /* สีข้อความของ modal-header */
+}
+
+/* กำหนดลักษณะของเนื้อหาภายใน modal */
+.modal-body {
+    display: flex; /* ใช้ Flexbox */
+    align-items: flex-start; /* การจัดตำแหน่งเนื้อหาเริ่มต้น */
+}
+
+.modal-body .modal-img-custom {
+    max-width: 35%; /* ความกว้างสูงสุดของรูปภาพใน modal */
+    margin-right: 20px; /* ช่องว่างด้านขวาของรูปภาพ */
+}
+
+.modal-body .modal-text {
+    max-width: 50%; /* ความกว้างสูงสุดของข้อความใน modal */
+}
+
+.modal-body ul {
+    list-style-type: none; /* ไม่มีสัญลักษณ์รายการ */
+    padding: 0; /* การเว้นระยะภายในของ ul */
+}
+
+.modal-body ul li {
+    margin-bottom: 5px; /* ช่องว่างด้านล่างของ li */
+}
+
+/* กำหนดระยะห่างด้านบนของ container */
+.container {
+    margin-top: 40px; /* ระยะห่างด้านบนของ container */
+}
+
+/* กำหนดระยะห่างด้านล่างของแต่ละการ์ด */
+.col-md-4 {
+    margin-bottom: 20px; /* เพิ่มช่องว่างระหว่างการ์ด */
+}
+
+/* กำหนดลักษณะของข้อความ h1 ที่มีคลาส text-center */
+.text-center {
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+.text-center h1 {
+    font-size: 3rem; /* ขนาดตัวอักษรของ h1 */
+    color: #ffd700; /* สีข้อความของ h1 */
+    margin-bottom: 20px; /* ช่องว่างด้านล่างของ h1 */
+}
+
+/* กำหนดลักษณะของ modal-footer */
+.modal-footer {
+    background-color: #ff888887; /* สีพื้นหลังของ modal-footer */
+    border: none; /* ไม่มีเส้นขอบ */
+}
+
+/* กำหนดลักษณะของปุ่ม btn-secondary */
+.btn-secondary {
+    color: #060606; /* สีข้อความของปุ่ม */
+    background-color: #98989800; /* สีพื้นหลังของปุ่ม */
+    padding: 10px 20px; /* การเว้นระยะภายในของปุ่ม */
+    border-radius: 5px; /* ขอบมุมโค้งมน */
+}
+
+/* กำหนดลักษณะของปุ่ม btn-secondary เมื่อ hover */
+.btn-secondary:hover {
+    background-color: #675454; /* สีพื้นหลังเมื่อ hover */
+    color: #000000; /* สีข้อความเมื่อ hover */
+    border-color: #00000000; /* สีขอบเมื่อ hover */
+}
+
+/* กำหนดลักษณะของปุ่ม btn-order */
+.btn-order {
+    background-color: #ff8888; /* สีพื้นหลังของปุ่ม */
+    color: #000000; /* สีข้อความของปุ่ม */
+    padding: 10px 20px; /* การเว้นระยะภายในของปุ่ม */
+    border-radius: 5px; /* ขอบมุมโค้งมน */
+}
+
+/* กำหนดลักษณะของปุ่ม btn-order เมื่อ hover */
+.btn-order:hover {
+    background-color: #675454; /* สีพื้นหลังเมื่อ hover */
+    color: #000000; /* สีข้อความเมื่อ hover */
+    border-color: #ff8888; /* สีขอบเมื่อ hover */
+}
+
+/* กำหนดลักษณะของปุ่ม btn-custom */
+.btn-custom {
+    background-color: #ff8888; /* สีพื้นหลังของปุ่ม */
+    color: #000000; /* สีข้อความของปุ่ม */
+    border: 1px solid #ff8888; /* สีขอบของปุ่ม */
+    padding: 10px 20px; /* การเว้นระยะภายในของปุ่ม */
+    border-radius: 5px; /* ขอบมุมโค้งมน */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    display: block; /* ให้ปุ่มเป็นบล็อก */
+    width: 100%; /* ความกว้างของปุ่ม */
+}
+
+.btn-custom:hover {
+    background-color: #ffaaaa; /* สีพื้นหลังเมื่อ hover */
+    color: #000000; /* สีข้อความเมื่อ hover */
+    border-color: #ff8888; /* สีขอบเมื่อ hover */
+}
+
+/* การกำหนดลักษณะของ footer */
+.footer {
+    background-color: #441818; /* สีพื้นหลังของ footer */
+    color: #ffd700; /* สีข้อความใน footer */
+    padding: 20px; /* การเว้นระยะของ footer */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    width: 100%; /* ความกว้างของ footer */
+}
